@@ -24,7 +24,6 @@ body {
   border-radius: 5px;
   box-sizing: border-box;
 }
-
 .form-container button {
   padding: 10px;
   width: 100%;
@@ -35,3 +34,13 @@ body {
   cursor: pointer;
 }
 
+/* estilização da mensagem de validação */
+.message.sucess {
+  background-color: green;
+  color: #fff;
+}
+
+.message.error {
+  background-color: red;
+  color: #fff;
+}
