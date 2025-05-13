@@ -9,11 +9,12 @@ body {
 }
 
 .form-container {
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   padding: 1rem;
   margin: 1rem;
+  border: 1px solid #dfdfdf;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+  box-shadow: 0 0 12px rgb(0, 0, 0, 0.08);
 }
 .form-container input {
   display: block;
