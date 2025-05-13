@@ -29,10 +29,16 @@ body {
   padding: 10px;
   width: 100%;
   color: white;
-  background-color: brown;
+  background-color: blue;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.3s;
+}
+.form-container button:hover {
+  background-color: rgb(2, 2, 189);
+  transition: 0.3s;
+  transform: scale(1.02);
 }
 
 /* estilização da mensagem de validação */
