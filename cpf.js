@@ -37,5 +37,5 @@ function validarCPF(cof) {
     return false;
   }
 
-  return true;git 
+  return true;
 }
